@@ -16,6 +16,7 @@ import com.example.helloandroid.R;
 import com.example.helloandroid.common.cache.ACache;
 import com.example.helloandroid.databinding.ActivityLoginBinding;
 import com.example.helloandroid.features.account.login.viewmodel.LoginViewModel;
+import com.xuexiang.xui.XUI;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -28,6 +29,7 @@ public class LoginActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        XUI.initTheme(this);
         super.onCreate(savedInstanceState);
         //setContentView(R.layout.activity_login);
 
