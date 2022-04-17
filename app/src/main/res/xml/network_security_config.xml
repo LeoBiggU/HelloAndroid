@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Android P 默认禁止http访问，加这个配置允许访问http -->
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>
